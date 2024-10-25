@@ -1,0 +1,41 @@
+.container{
+    display: grid;
+    grid-template-columns: 100px 100px 100px 100px;
+    height: 200px;
+    width: 400px;
+    margin-left: 40vw;
+    justify-content: center;
+    border: 2px solid rgb(21, 15, 15);
+    border-radius: 5px;
+    margin-top: 10%;
+    box-shadow: 10px 10px 10px rgba(128, 128, 128, 0.189);
+    
+}
+.equals-to{
+    grid-column-start: 2;
+    grid-column-end: 4;
+ 
+}
+.numbers{
+   border: 1px solid black;
+    /* padding-left: 40%;
+    padding-top: 10%; */
+    font-size: 30px;
+    text-align: center;
+}
+
+.signs{
+ 
+    color: rgb(255, 94, 0);
+}
+.bacspace-btn{
+    font-size: 30px;
+    text-align: center;
+}
+.numbers:hover{
+    background-color: aliceblue;
+    opacity: 0.7;
+}
+.numbers:active{
+   opacity: 0.4;
+}
